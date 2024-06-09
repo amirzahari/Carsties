@@ -4,8 +4,8 @@ services:
     environment:
       - POSTGRES_PASSWORD=postgrespw
     ports:
-      - 5432: 5432
+      - 5432:5432
     volumes:
       - pgdata:/var/lib/postresql/data
-volumes:
-  pgdata
+volumes: 
+  pgdata:
